@@ -5,6 +5,8 @@ $telefono = $_POST['telef'];
 $asunto = $_POST['asunto'];
 $empresa = $_POST['msg'];
 
+echo("nombre: ".$nombre."\nmail".$mail);
+
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
