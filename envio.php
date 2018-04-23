@@ -1,9 +1,9 @@
 <?php
-$nombre = $_POST['name'];
-$mail = $_POST['mail'];
-$telefono = $_POST['telef'];
-$asunto = $_POST['asunto'];
-$empresa = $_POST['msg'];
+$nombre = $_GET['name'];
+$mail = $_GET['mail'];
+$telefono = $_GET['telef'];
+$asunto = $_GET['asunto'];
+$empresa = $_GET['msg'];
 
 echo("nombre: ".$nombre."\nmail".$mail);
 
