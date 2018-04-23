@@ -3809,7 +3809,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		max-width: 55em;
 	}
 
 		#cta .inner header {
@@ -3833,6 +3833,15 @@
 			width: 40%;
 		}
 
+		#cta .inner input {
+			width: 150%;
+		}
+		
+		#cta .inner textarea {
+			width: 200%;
+			resize:none;
+		}
+		
 		@media screen and (max-width: 980px) {
 
 			#cta .inner {
