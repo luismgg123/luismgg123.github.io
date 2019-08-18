@@ -1403,7 +1403,7 @@
 	}
 
 	body {
-		background: #2e3842;
+		background: #333;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2317,7 +2317,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ed4933;
+			background-color: #e01d24;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2440,7 +2440,7 @@
 			
 			
 			.features li:nth-child(n):hover{
-				background:#ffb5a8;
+				background:#fff;
 			}
 			.features li:nth-child(2) {
 				background-color: rgba(0, 0, 0, 0.050);
@@ -2500,7 +2500,7 @@
 			}
 
 			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.190);
+				background-color: rgba(0, 0, 0, 0.130);
 				background-image: url(images/piab.png);
 				background-size:60%;
 				background-repeat: no-repeat;
@@ -2508,7 +2508,7 @@
 			}
 
 			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.210);
+				background-color: rgba(0, 0, 0, 0.150);
 				background-image: url(images/zec.png);
 				background-size:60%;
 				background-repeat: no-repeat;
@@ -2516,7 +2516,7 @@
 			}
 			
 			.features li:nth-child(11) {
-				background-color: rgba(0, 0, 0, 0.230);
+				background-color: rgba(0, 0, 0, 0.110);
 				background-image: url(images/jorc.png);
 				background-size:60%;
 				background-repeat: no-repeat;
@@ -2524,7 +2524,7 @@
 			}
 			
 			.features li:nth-child(12) {
-				background-color: rgba(0, 0, 0, 0.250);
+				background-color: rgba(0, 0, 0, 0.090);
 				background-image: url(images/zeca-logo.png);
 				background-size:70%;
 				background-repeat: no-repeat;
@@ -2532,7 +2532,7 @@
 			}
 			
 			.features li:nth-child(13) {
-				background-color: rgba(0, 0, 0, 0.270);
+				background-color: rgba(0, 0, 0, 0.070);
 				background-image: url(images/powergenex-logo.png);
 				background-size:50%;
 				background-repeat: no-repeat;
@@ -2540,7 +2540,7 @@
 			}
 			
 			.features li:nth-child(14) {
-				background-color: rgba(0, 0, 0, 0.290);
+				background-color: rgba(0, 0, 0, 0.050);
 				background-image: url(images/gemels.png);
 				background-size:50%;
 				background-repeat: no-repeat;
@@ -2733,7 +2733,7 @@
 /* Wrapper */
 
 	#one .inner .more{
-		color: #FF6961;
+		color: #e01d24;
 	}
 
 	.wrapper {
@@ -2775,7 +2775,7 @@
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #FF6961;
+				color: #e01d24;
 			}
 
 			.wrapper.style1 hr {
@@ -2920,7 +2920,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #333;
 		}
 
 		.wrapper.style3 {
@@ -2933,7 +2933,7 @@
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #FF6961;
+				color: #e01d24;
 			}
 
 			.wrapper.style3 hr {
@@ -3288,7 +3288,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("images/bg2.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 70%;
 		left: 0;
@@ -3363,7 +3363,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2050px auto;
 		width: 6750px;
 	}
 	@media screen and (max-width: 1680px) {
@@ -3895,7 +3895,7 @@
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #333;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -4037,13 +4037,14 @@
 	}
 
 		#main > header h2 {
-			position: relative;
+			color: #e01d24;
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
 		}
 
 		#main > header p {
-			color: inherit;
+			position: initial;
+			color: #e01d24;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			top: 0;
@@ -4090,6 +4091,14 @@
 
 		}
 
+	#main .camoimg {
+		position: absolute;
+		display: center;
+		margin-top:-15%;
+		margin-left: -10%;
+	}
+	
+	
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
@@ -4207,7 +4216,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(51, 51, 51, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
